@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t jawza33/2048:latest .'
+				sh 'docker build -t jawza33/2048d:latest .'
 			}
 		}
 
@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push jawza33/2048:latest'
+				sh 'docker push jawza33/2048d:latest'
 			}
 		}
 	}
