@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push jawza333/2048:latest'
+				sh 'docker push jawza33/2048:latest'
 			}
 		}
 	}
